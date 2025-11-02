@@ -2,7 +2,7 @@ import "./App.scss";
 
 import { Initial } from "./Initial";
 import { Header } from "./Header";
-import { Main } from "./Main";
+import { Main } from "./MainCode";
 import { Contact } from "./Contact";
 import { Footer } from "./Footer";
 
