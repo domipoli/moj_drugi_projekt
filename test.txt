@@ -1,8 +1,0 @@
-to jest plik testowy
-to linijka dopisana w github
-to linijka dopisana lokalnie
-to kolejna linijka dopisana w github
-
-to jest dodane lokalnie teraz
-to jest dodane lokalnie po raz drugi 
-to jest dodane po raz trzeci lokalnie
