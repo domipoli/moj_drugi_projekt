@@ -4,3 +4,4 @@ to linijka dopisana lokalnie
 to kolejna linijka dopisana w github
 
 to jest dodane lokalnie teraz
+to jest dodane lokalnie po raz drugi 
