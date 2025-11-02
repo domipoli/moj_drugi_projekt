@@ -1,0 +1,25 @@
+@import 'variables';
+
+.header-contact{
+  width:100%;
+  height:91px;
+  background-color: $frame-background-color;
+  margin-top: 30px;
+  text-align: center;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.25);  
+}
+
+.contact-firstline{
+  font-family: $font-primary;
+  font-size: $mobile-sans-S;
+  color: $black-letters;
+  padding-top: 10px;
+  display:block;
+  margin-top:35px;
+}
+
+.contact-secondline{
+  display: flex;
+  justify-content: space-around;
+  margin-top: -5px;
+}

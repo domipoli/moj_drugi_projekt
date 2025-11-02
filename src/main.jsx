@@ -1,10 +1,15 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import { MainIntro } from './MainIntro'
+import { MainIntroFooter } from './MainIntroFooter'
+import './Main.scss'
+import { MainContent } from './MainContent'
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+export function Main () {
+  return (
+    <div className="main">
+      <MainIntro />
+      <MainIntroFooter />
+      <MainContent />
+    </div>
+   
+  )
+}

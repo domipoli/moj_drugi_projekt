@@ -1,0 +1,43 @@
+@import 'variables';
+
+.initialphoto{
+  width: 391px;
+  height: 641px;
+  position : relative
+}
+
+.text_whole{
+  width: 90%;
+  height: 170px;
+  border-radius: 0 20px 20px 0;
+  position:absolute;
+  background-color: $frame-background-color;
+  top: 570px;
+  border-bottom: 5px solid  $dark-purple;
+  
+}
+
+.text_general{
+  margin : 22px 17px 0 17px;
+  font-size: 16px;
+  color: $dark-purple;
+  font-family: $font-primary;
+}
+
+.text_description1{
+  margin: 14px 0 -12px 17px;
+  font-size: 24px;
+  font-family: $font-primary;
+  color:rgba(59, 56, 56, 1);
+  letter-spacing: 1px;
+
+}
+
+.text_description{
+  margin: 24px 0 11px 17px;
+  font-size: 24px;
+  font-family: $font-primary;
+  color:rgba(59, 56, 56, 1);
+  letter-spacing: 1px;
+
+}

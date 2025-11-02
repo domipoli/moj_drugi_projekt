@@ -1,0 +1,112 @@
+@import 'variables';
+
+.main-intro{
+  height: 360px;
+  overflow: hidden;
+}
+
+.main-intro-header{
+ width: 367px;
+ height:60px;
+ background-color: $dark-purple;
+ font-family: $font-primary;
+ font-size: $mobile-sans-L;
+ color: $almost-white;
+ padding-left: 24px;
+ line-height: 60px;
+ letter-spacing: 2px;
+}
+
+.main-intro-panels-both{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-top:39px;
+  // height:236px;
+}
+.main-intro-panel{
+  width:185px;
+  height: 206px;
+
+}
+
+.main-intro-panel>header{
+  font-family: $font-primary;
+  font-size: $mobile-sans-S;
+  color:$grey-less-dark;
+  padding-left:24px;
+  margin-bottom:15px;
+}
+
+.main-intro-panel-left .content-left{
+  display:flex;
+  flex-direction:column;
+}
+
+.main-intro-panel-left .content-left .content-left-first, .main-intro-panel-left .content-left .content-left-second {
+  background-color: $light-purple;
+  color:$almost-white;
+  font-family: $font-primary;
+  font-size: $mobile-sans-XS;
+  padding-left: 24px;
+  height:58px;
+}
+
+.content-left .content-left-first , .content-left .content-left-second{
+ display:flex;
+ align-items: center;
+}
+
+
+.content-left span{
+  display: inline-block;
+  width: 160px;
+  letter-spacing: 1px;
+}
+
+.content-right span{
+  display: inline-block;
+  width: 160px;
+  letter-spacing: 1px;
+}
+
+.main-intro-panel .content-right{
+  height: 183px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.main-intro-panel .content-left{
+  height: 155px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  overflow: hidden;
+}
+
+
+.content-right .content-right-first, .content-right-second, .content-right-third, .content-right-fourth{
+  width: 188px;
+  height: 39px;
+  font-family: $font-primary;
+  font-size: $mobile-sans-XS;
+  padding-left: 24px;
+  // margin-bottom: 9px;
+  display:flex;
+  align-items: center;
+
+
+}
+
+.content-right-first, .content-right-third{
+  background-color: $light-purple;
+  color:$almost-white;
+}
+
+.content-right-second, .content-right-fourth{
+  background-color: $orange-very-light;
+  color: $grey-dark;
+}

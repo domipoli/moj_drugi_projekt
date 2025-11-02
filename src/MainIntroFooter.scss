@@ -1,0 +1,28 @@
+@import 'variables';
+
+.main-intro-footer{
+  width: 391px;
+  height: 56px;
+  background-color: $frame-background-color;
+  display: flex;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 4px 4px rgba($color: #000000, $alpha: 0.25);
+}
+
+.main-intro-footer > div{
+  font-family: $font-primary;
+  font-size: $mobile-sans-S;
+  color: $black-letters;
+  padding-left: 27px;
+}
+
+.main-intro-footer  span{
+  display: block;
+}
+
+.main-intro-footer > a{
+  padding: 7px 0 0 0;
+  position: absolute;
+  right: 25px;
+}

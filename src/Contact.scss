@@ -1,0 +1,96 @@
+@import 'variables';
+
+.contact-wrapper{
+  position: absolute;
+  top:8300px;
+  width: 391px;
+  
+  .contact-inner{
+    width:345px;
+    height: 1000px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px 0 0 20px;
+    background-color: $grey-very-light-70;
+
+    .header-main{
+      color: $dark-purple;
+      font-size: $mobile-sans-L;
+      font-family: $font-primary;
+      letter-spacing: 2px;
+      margin-bottom: 30px;
+      width: 345px;
+    }
+
+    .contact{
+      color: $grey-dark;
+      font-family: $font-primary;
+      font-size: $mobile-sans-S;
+      letter-spacing: 1px;
+
+      span{
+        margin-left: 10px;
+      }
+    }
+
+    .contact-form{
+      font-family: $font-primary;
+      font-size: $mobile-sans-L;
+      letter-spacing: 1px;
+      color: $grey-middle;
+
+      .name-surname-email{
+        width:295px;
+        height:42px;
+        margin: 0 auto;
+        border-radius: 22px;
+        border: 2px solid $grey-light;
+        background-color: $grey-very-light-70;
+        font-size: $mobile-sans-S;
+        font-family: $font-primary;
+        padding-left:30px;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+      }
+
+      .message{
+        width:265px;
+        height:390px;
+        margin: 0 auto;
+        border-radius: 22px;
+        border: 2px solid $grey-light;
+        background-color: $grey-very-light-70;
+        font-size: $mobile-sans-S;
+        padding:30px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        resize: none;
+      }
+
+      .btn-submit{
+        width: 274px;
+        height: 82px;
+        background-color: $light-purple;
+        border: 1px solid $dark-purple;
+       
+        border-radius: 80px;
+        color: $frame-background-color;
+        font-family: $font-primary;
+        letter-spacing: 2px;
+        font-size: $mobile-sans-L;
+        margin: 25px;    
+        box-shadow: 0 4px 4px rgba(0,0,0,0.25);  
+      }
+
+      .info-submit{
+        background-color: $grey-middle;
+        border-color: $grey-dark;
+      }
+
+      .info-submit-sent{
+        background-color: $green-dark;
+      }
+    }
+  }
+}  
+
