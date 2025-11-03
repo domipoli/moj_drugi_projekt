@@ -29,15 +29,15 @@ export function Header () {
           pod ręką dyrygentki Katarzyny Jaskóleckiej
         </p>
 
-        <div className='header-events'>
+      <div className='header-events'>
           <Event text='Zaśpiewałysmy na wydarzeniach' number='50'/>
           <Event text='Zorganizowałyśmy warsztatów piosenki japońskiej' number='57'/>
           <Event text='Odwiedziłysmy miast' number='14'/>
           <Event text='Wystawilismy autorskich spektakli' number='18'/>
-        </div>
+      </div>
 
       <MobileCarousel />
       <HeaderContact />          
 
-      </div>)
+  </div>)
 }
