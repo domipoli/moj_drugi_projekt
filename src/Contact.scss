@@ -2,7 +2,7 @@
 
 .contact-wrapper{
   position: static;
-  // top:8450px;
+  margin-bottom: 30px;
   width: 391px;
   
   .contact-inner{
@@ -60,9 +60,10 @@
         border-radius: 22px;
         border: 2px solid $grey-light;
         background-color: $grey-very-light-70;
+        font-family: $font-primary;
         font-size: $mobile-sans-S;
         padding:30px;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
         margin-bottom: 20px;
         resize: none;
       }
