@@ -13,7 +13,7 @@ export const Footer = () => {
       <div className='footer-wrapper'>
      
         <section className='footer-top'>
-          <p>Chór kameralny Hibike</p>
+          <p>Chór Kameralny Hibike</p>
           <div>
             <img src={emailIcon} alt="emailIcon" />
             <span>biuro@chorkameralnyhibike.com</span>
@@ -49,8 +49,8 @@ export const Footer = () => {
         </section>
         <section className='footer-bottom'>
           <p>Zdjęcia: Radosław Borowicz, Maciej Zakrzewski</p>
-          <p>Ilustracje: Marta Słotwińska, Ariel Nowaczyk</p>
-          <p>Projekt strony: Dominika Polińska</p>
+          <p>Ilustracje: Marta Słotwińska</p>
+          <p>Projekt i realizacja strony: Dominika Polińska</p>
         </section>
       </div>
     </div>

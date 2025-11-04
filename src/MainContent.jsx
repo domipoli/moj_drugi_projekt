@@ -4,7 +4,7 @@ import { MainContentSection3 } from './MainContentSection3';
 import { MainContentSection4 } from './MainContentSection4';
 import { MainContentSection5 } from './MainContentSection5';
 import { MainContentSection6 } from './MainContentSection6';
-import { MainContentSection2 } from './MainHeaderSection2';
+import { MainContentSection2 } from './MainContentSection2';
 
 export const MainContent = () => {
   return(
@@ -15,17 +15,17 @@ export const MainContent = () => {
           <span> i dorosłych</span> 
         </div>
       </header>
-      <MainContentSection1 />
-      <MainContentSection2 />
-      <MainContentSection3 />
-      <MainContentSection4 />
+        <MainContentSection1 />
+        <MainContentSection2 />
+        <MainContentSection3 />
+        <MainContentSection4 />
       <header>
         <div>
           <span>Autorskie spektakle</span>
         </div>
       </header>
-      <MainContentSection5 />
-      <MainContentSection6 />
+        <MainContentSection5 />
+        <MainContentSection6 />
     </div>
   )
 }

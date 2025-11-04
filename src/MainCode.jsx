@@ -6,7 +6,7 @@ import './Main-style.scss'
 
 export function Main () {
   return (
-    <div className="main">
+    <div className="main-main">
       <MainIntro />
       <MainIntroFooter />
       <MainContent />
