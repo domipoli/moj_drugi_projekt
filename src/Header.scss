@@ -1,8 +1,9 @@
 @import 'variables';
 
 .header{
-  position:absolute;
-  top: 790px;
+  position:static;
+  // top: 790px;
+  margin-bottom: 510px;
   width:100%;
 }
 
